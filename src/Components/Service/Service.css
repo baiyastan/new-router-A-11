@@ -1,0 +1,55 @@
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.service {
+    width: 1000px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.item-service {
+    width: 230px;
+    height: 350px;
+}
+
+.item-service img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.create-btn {
+    height: 44px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.update {
+    width: 50%;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+.delete {
+    width: 50%;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
